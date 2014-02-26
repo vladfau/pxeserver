@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<title>fedora-infrastructure.git - Fedora Infrastructure</title>
+<meta name='generator' content='cgit v0.9.2'/>
+<meta name='robots' content='index, nofollow'/>
+<link rel='stylesheet' type='text/css' href='/cgit-data/cgit.css'/>
+<link rel='alternate' title='Atom feed' href='https://git.fedorahosted.org/cgit/fedora-infrastructure.git/atom/bfo/static.gxpe?h=master' type='application/atom+xml'/>
+</head>
+<body>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/cgit/'><img src='/cgit-data/cgit.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/cgit/'>index</a> : <a title='fedora-infrastructure.git' href='/cgit/fedora-infrastructure.git/'>fedora-infrastructure.git</a></td><td class='form'><form method='get' action=''>
+<select name='h' onchange='this.form.submit();'>
+<option value='group-master-fix'>group-master-fix</option>
+<option value='master' selected='selected'>master</option>
+</select> <input type='submit' name='' value='switch'/></form></td></tr>
+<tr><td class='sub'>Fedora Infrastructure</td><td class='sub right'>Mike McGrath</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/cgit/fedora-infrastructure.git/'>summary</a><a href='/cgit/fedora-infrastructure.git/refs/'>refs</a><a href='/cgit/fedora-infrastructure.git/log/bfo/static.gxpe'>log</a><a class='active' href='/cgit/fedora-infrastructure.git/tree/bfo/static.gxpe'>tree</a><a href='/cgit/fedora-infrastructure.git/commit/bfo/static.gxpe'>commit</a><a href='/cgit/fedora-infrastructure.git/diff/bfo/static.gxpe'>diff</a><a href='/cgit/fedora-infrastructure.git/stats/bfo/static.gxpe'>stats</a></td><td class='form'><form class='right' method='get' action='/cgit/fedora-infrastructure.git/log/bfo/static.gxpe'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='text' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/cgit/fedora-infrastructure.git/tree/'>root</a>/<a href='/cgit/fedora-infrastructure.git/tree/bfo'>bfo</a>/<a href='/cgit/fedora-infrastructure.git/tree/bfo/static.gxpe'>static.gxpe</a></div><div class='content'></div> <!-- class=content -->
+<div class='footer'>generated  by cgit v0.9.2 at 2014-02-26 13:04:19 (GMT)</div>
+</div> <!-- id=cgit -->
+</body>
+</html>
