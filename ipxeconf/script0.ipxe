@@ -1,0 +1,10 @@
+#!ipxe
+set 209:string pxelinux.cfg/default
+set 210:string http://ka2m.github.io/pxeserver/
+dhcp || goto manualnet
+chain http://ka2m.github.io/pxeserver/pxelinux.0
+:manualnet
+echo Please provide, IP address, Netmask, Gateway and Router
+ifopen net0
+config net0
+chain http://ka2m.github.io/pxeserver/pxelinux.0
