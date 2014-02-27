@@ -11,43 +11,15 @@ LABEL bootlocal
 	ENDTEXT
 	localboot 0x80
 
-menu include pxelinux.cfg/FreeBSD/FreeBSD.conf FreeBSD
-menu include pxelinux.cfg/OpenBSD/OpenBSD.conf OpenBSD
-menu include pxelinux.cfg/altlinux/altlinux.conf altlinux
-menu include pxelinux.cfg/altlinux-beta/altlinux-beta.conf altlinux-beta
-menu include pxelinux.cfg/archlinux/archlinux.conf archlinux
 menu include pxelinux.cfg/asplinux/asplinux.conf asplinux
-menu include pxelinux.cfg/astra/astra.conf astra
-menu include pxelinux.cfg/calculate/calculate.conf calculate
 menu include pxelinux.cfg/centos/centos.conf centos
 menu include pxelinux.cfg/debian/debian.conf debian
-menu include pxelinux.cfg/debian-cd/debian-cd.conf debian-cd
 menu include pxelinux.cfg/debian-pure64/debian-pure64.conf debian-pure64
 menu include pxelinux.cfg/fedora/fedora.conf fedora
 menu include pxelinux.cfg/fedora-enchilada/fedora-enchilada.conf fedora-enchilada
 menu include pxelinux.cfg/fedora-linux-development/fedora-linux-development.conf fedora-linux-development
 menu include pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf fedora-linux-releases
-menu include pxelinux.cfg/gentoo-distfiles/gentoo-distfiles.conf gentoo-distfiles
-menu include pxelinux.cfg/kernel.org/kernel.org.conf kernel.org
-menu include pxelinux.cfg/knoppix/knoppix.conf knoppix
-menu include pxelinux.cfg/libreoffice/libreoffice.conf libreoffice
-menu include pxelinux.cfg/linux-xp/linux-xp.conf linux-xp
-menu include pxelinux.cfg/linuxmint/linuxmint.conf linuxmint
-menu include pxelinux.cfg/mageia/mageia.conf mageia
-menu include pxelinux.cfg/mandriva/mandriva.conf mandriva
 menu include pxelinux.cfg/mirrors/mirrors.conf mirrors
-menu include pxelinux.cfg/mopslinux/mopslinux.conf mopslinux
-menu include pxelinux.cfg/openmandriva/openmandriva.conf openmandriva
-menu include pxelinux.cfg/openoffice/openoffice.conf openoffice
-menu include pxelinux.cfg/opensuse/opensuse.conf opensuse
-menu include pxelinux.cfg/puppyrus/puppyrus.conf puppyrus
 menu include pxelinux.cfg/rosa/rosa.conf rosa
-menu include pxelinux.cfg/runtu/runtu.conf runtu
-menu include pxelinux.cfg/sabayon/sabayon.conf sabayon
 menu include pxelinux.cfg/scientificlinux/scientificlinux.conf scientificlinux
-menu include pxelinux.cfg/simplelinux/simplelinux.conf simplelinux
-menu include pxelinux.cfg/slackware/slackware.conf slackware
-menu include pxelinux.cfg/slamd64/slamd64.conf slamd64
 menu include pxelinux.cfg/ubuntu/ubuntu.conf ubuntu
-menu include pxelinux.cfg/ubuntu-cdimage/ubuntu-cdimage.conf ubuntu-cdimage
-menu include pxelinux.cfg/ubuntu-releases/ubuntu-releases.conf ubuntu-releases
