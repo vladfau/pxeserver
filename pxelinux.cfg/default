@@ -35,6 +35,9 @@ label fedora-linux-development
 label fedora-linux-releases
 	KERNEL vesamenu.c32
  	APPEND pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf
+label mirrors
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/mirrors/mirrors.conf
 label rosa
 	KERNEL vesamenu.c32
  	APPEND pxelinux.cfg/rosa/rosa.conf
