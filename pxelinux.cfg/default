@@ -1,4 +1,4 @@
-DEFAULT vesamenu.c32
+DEFAULT menu.c32
 PROMPT 0
 MENU TITLE Mirror Walker 
 
@@ -11,39 +11,39 @@ LABEL bootlocal
 	ENDTEXT
 	localboot 0x80
 
-label asplinux
-	KERNEL vesamenu.c32
+LABEL asplinux
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/asplinux/asplinux.conf
-label centos
-	KERNEL vesamenu.c32
+LABEL centos
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/centos/centos.conf
-label debian
-	KERNEL vesamenu.c32
+LABEL debian
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/debian/debian.conf
-label debian-pure64
-	KERNEL vesamenu.c32
+LABEL debian-pure64
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/debian-pure64/debian-pure64.conf
-label fedora
-	KERNEL vesamenu.c32
+LABEL fedora
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/fedora/fedora.conf
-label fedora-enchilada
-	KERNEL vesamenu.c32
+LABEL fedora-enchilada
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/fedora-enchilada/fedora-enchilada.conf
-label fedora-linux-development
-	KERNEL vesamenu.c32
+LABEL fedora-linux-development
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/fedora-linux-development/fedora-linux-development.conf
-label fedora-linux-releases
-	KERNEL vesamenu.c32
+LABEL fedora-linux-releases
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf
-label mirrors
-	KERNEL vesamenu.c32
+LABEL mirrors
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/mirrors/mirrors.conf
-label rosa
-	KERNEL vesamenu.c32
+LABEL rosa
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/rosa/rosa.conf
-label scientificlinux
-	KERNEL vesamenu.c32
+LABEL scientificlinux
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/scientificlinux/scientificlinux.conf
-label ubuntu
-	KERNEL vesamenu.c32
+LABEL ubuntu
+	KERNEL menu.c32
  	APPEND pxelinux.cfg/ubuntu/ubuntu.conf
