@@ -1,0 +1,133 @@
+DEFAULT vesamenu.c32
+PROMPT 0
+MENU TITLE Mirror Walker 
+
+LABEL bootlocal
+	MENU DEFAULT
+	MENU LABEL Local Boot
+	TEXT HELP
+		This will exit from the network boot menu and attempt
+		to boot from local media (hard disk, DVD, etc)
+	ENDTEXT
+	localboot 0x80
+
+label FreeBSD
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/FreeBSD/FreeBSD.conf
+label OpenBSD
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/OpenBSD/OpenBSD.conf
+label altlinux
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/altlinux/altlinux.conf
+label altlinux-beta
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/altlinux-beta/altlinux-beta.conf
+label archlinux
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/archlinux/archlinux.conf
+label asplinux
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/asplinux/asplinux.conf
+label astra
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/astra/astra.conf
+label calculate
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/calculate/calculate.conf
+label centos
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/centos/centos.conf
+label debian
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/debian/debian.conf
+label debian-cd
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/debian-cd/debian-cd.conf
+label debian-pure64
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/debian-pure64/debian-pure64.conf
+label fedora
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/fedora/fedora.conf
+label fedora-enchilada
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/fedora-enchilada/fedora-enchilada.conf
+label fedora-linux-development
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/fedora-linux-development/fedora-linux-development.conf
+label fedora-linux-releases
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf
+label gentoo-distfiles
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/gentoo-distfiles/gentoo-distfiles.conf
+label kernel.org
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/kernel.org/kernel.org.conf
+label knoppix
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/knoppix/knoppix.conf
+label libreoffice
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/libreoffice/libreoffice.conf
+label linux-xp
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/linux-xp/linux-xp.conf
+label linuxmint
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/linuxmint/linuxmint.conf
+label mageia
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/mageia/mageia.conf
+label mandriva
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/mandriva/mandriva.conf
+label mirrors
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/mirrors/mirrors.conf
+label mopslinux
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/mopslinux/mopslinux.conf
+label openmandriva
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/openmandriva/openmandriva.conf
+label openoffice
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/openoffice/openoffice.conf
+label opensuse
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/opensuse/opensuse.conf
+label puppyrus
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/puppyrus/puppyrus.conf
+label rosa
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/rosa/rosa.conf
+label runtu
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/runtu/runtu.conf
+label sabayon
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/sabayon/sabayon.conf
+label scientificlinux
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/scientificlinux/scientificlinux.conf
+label simplelinux
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/simplelinux/simplelinux.conf
+label slackware
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/slackware/slackware.conf
+label slamd64
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/slamd64/slamd64.conf
+label ubuntu
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/ubuntu/ubuntu.conf
+label ubuntu-cdimage
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/ubuntu-cdimage/ubuntu-cdimage.conf
+label ubuntu-releases
+	KERNEL vesamenu.c32
+ 	APPEND pxelinux.cfg/ubuntu-releases/ubuntu-releases.conf
