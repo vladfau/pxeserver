@@ -11,88 +11,12 @@ LABEL bootlocal
     ENDTEXT
     localboot 0x80
 
-LABEL asplinux
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/asplinux/asplinux.conf
 LABEL centos
     KERNEL menu.c32
     APPEND pxelinux.cfg/centos/centos.conf
 LABEL debian
     KERNEL menu.c32
     APPEND pxelinux.cfg/debian/debian.conf
-LABEL debian-pure64
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/debian-pure64/debian-pure64.conf
-LABEL fedora
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora/fedora.conf
-LABEL fedora-enchilada
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora-enchilada/fedora-enchilada.conf
-LABEL fedora-linux-development
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora-linux-development/fedora-linux-development.conf
-LABEL fedora-linux-releases
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf
-LABEL mirrors
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/mirrors/mirrors.conf
-LABEL rosa
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/rosa/rosa.conf
-LABEL scientificlinux
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/scientificlinux/scientificlinux.conf
-LABEL ubuntu
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/ubuntu/ubuntu.conf
-DEFAULT menu.c32
-PROMPT 0
-MENU TITLE Mirror Walker
-
-LABEL bootlocal
-    MENU DEFAULT
-    MENU LABEL Local Boot
-    TEXT HELP
-        This will exit from the network boot menu and attempt
-        to boot from local media (hard disk, DVD, etc)
-    ENDTEXT
-    localboot 0x80
-
-LABEL asplinux
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/asplinux/asplinux.conf
-LABEL centos
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/centos/centos.conf
-LABEL debian
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/debian/debian.conf
-LABEL debian-pure64
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/debian-pure64/debian-pure64.conf
-LABEL fedora
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora/fedora.conf
-LABEL fedora-enchilada
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora-enchilada/fedora-enchilada.conf
-LABEL fedora-linux-development
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora-linux-development/fedora-linux-development.conf
-LABEL fedora-linux-releases
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf
-LABEL mirrors
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/mirrors/mirrors.conf
-LABEL rosa
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/rosa/rosa.conf
-LABEL scientificlinux
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/scientificlinux/scientificlinux.conf
 LABEL ubuntu
     KERNEL menu.c32
     APPEND pxelinux.cfg/ubuntu/ubuntu.conf
