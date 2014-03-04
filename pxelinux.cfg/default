@@ -11,9 +11,123 @@ LABEL bootlocal
     ENDTEXT
     localboot 0x80
 
+LABEL FreeBSD
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/FreeBSD/FreeBSD.conf
+LABEL OpenBSD
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/OpenBSD/OpenBSD.conf
+LABEL altlinux
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/altlinux/altlinux.conf
+LABEL altlinux-beta
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/altlinux-beta/altlinux-beta.conf
+LABEL archlinux
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/archlinux/archlinux.conf
+LABEL asplinux
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/asplinux/asplinux.conf
+LABEL astra
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/astra/astra.conf
+LABEL calculate
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/calculate/calculate.conf
+LABEL centos
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/centos/centos.conf
 LABEL debian
     KERNEL menu.c32
     APPEND pxelinux.cfg/debian/debian.conf
+LABEL debian-cd
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/debian-cd/debian-cd.conf
+LABEL debian-pure64
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/debian-pure64/debian-pure64.conf
+LABEL fedora
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/fedora/fedora.conf
+LABEL fedora-enchilada
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/fedora-enchilada/fedora-enchilada.conf
+LABEL fedora-linux-development
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/fedora-linux-development/fedora-linux-development.conf
+LABEL fedora-linux-releases
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/fedora-linux-releases/fedora-linux-releases.conf
+LABEL gentoo-distfiles
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/gentoo-distfiles/gentoo-distfiles.conf
+LABEL kernel.org
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/kernel.org/kernel.org.conf
+LABEL knoppix
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/knoppix/knoppix.conf
+LABEL libreoffice
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/libreoffice/libreoffice.conf
+LABEL linux-xp
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/linux-xp/linux-xp.conf
+LABEL linuxmint
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/linuxmint/linuxmint.conf
+LABEL mageia
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/mageia/mageia.conf
+LABEL mandriva
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/mandriva/mandriva.conf
+LABEL mirrors
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/mirrors/mirrors.conf
+LABEL mopslinux
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/mopslinux/mopslinux.conf
+LABEL openmandriva
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/openmandriva/openmandriva.conf
+LABEL openoffice
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/openoffice/openoffice.conf
+LABEL opensuse
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/opensuse/opensuse.conf
+LABEL puppyrus
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/puppyrus/puppyrus.conf
+LABEL rosa
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/rosa/rosa.conf
+LABEL runtu
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/runtu/runtu.conf
+LABEL sabayon
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/sabayon/sabayon.conf
+LABEL scientificlinux
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/scientificlinux/scientificlinux.conf
+LABEL simplelinux
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/simplelinux/simplelinux.conf
+LABEL slackware
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/slackware/slackware.conf
+LABEL slamd64
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/slamd64/slamd64.conf
 LABEL ubuntu
     KERNEL menu.c32
     APPEND pxelinux.cfg/ubuntu/ubuntu.conf
+LABEL ubuntu-cdimage
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/ubuntu-cdimage/ubuntu-cdimage.conf
+LABEL ubuntu-releases
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/ubuntu-releases/ubuntu-releases.conf
