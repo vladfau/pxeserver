@@ -11,9 +11,9 @@ LABEL bootlocal
     ENDTEXT
     localboot 0x80
 
-LABEL centos
-    KERNEL menu.c32
-    APPEND pxelinux.cfg/centos/centos.conf
 LABEL debian
     KERNEL menu.c32
     APPEND pxelinux.cfg/debian/debian.conf
+LABEL ubuntu
+    KERNEL menu.c32
+    APPEND pxelinux.cfg/ubuntu/ubuntu.conf
